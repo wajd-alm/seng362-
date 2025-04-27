@@ -1,76 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Tasks</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f8f9fa;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-    }
-    .new-task {
-      display: block;
-      width: 200px;
-      margin: 20px auto;
-      padding: 10px;
-      background-color: #28a745;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-    }
-    th, td {
-      border: 1px solid #dee2e6;
-      padding: 10px;
-      text-align: center;
-    }
-    th {
-      background-color: #e9ecef;
-    }
-    a {
-      color: #28a745;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>SENG361</title>
+    <meta name="description" content="This is our project for the SENG361 course">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            color: #333;
+        }
+        a {
+            display: inline-block;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
+    <h1>Task Manager</h1>
+    <a href="new_task.html">New Task</a>
 
-  <h1>Tasks</h1>
-
-  <a href="#" class="new-task">New Task</a>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Description</th>
-        <th>Actions</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>SENG361</td>
-        <td>This is our project for the SENG361 course</td>
-        <td>
-          <a href="#">Edit</a> |
-          <a href="#">Delete</a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
+    <ul>
+        <li>Example Task 1</li>
+        <li>Example Task 2</li>
+    </ul>
 </body>
 </html>
